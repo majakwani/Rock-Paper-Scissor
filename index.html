@@ -5,9 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissor</title>
-</head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Permanent+Marker&family=Quintessential&family=Shizuru&display=swap" rel="stylesheet"></head>
 <body>
+
+    <div class="container">
+        
+        <div class="horizontal1">
+            <h1>Rock Paper Scissor</h1>
+            <h3><i>Best of 5</i></h3>
+        </div>
     
+        <div class="horizontal2">
+    
+            <div class="vertical1">
+                <button value="ROCK" class="button rock" onclick="playRound(userInput(1), computerPlay())">Rock</button>
+                <button value="PAPER" class="button paper" onclick="playRound(userInput(2), computerPlay())">Paper</button>
+                <button value="SCISSOR" class="button scissor" onclick="playRound(userInput(3), computerPlay())">Scissor</button>
+            </div>
+
+            <div class="vertical2">
+                <div class="v2h1"></div>
+            </div>
+
+            <div class="vertical3">
+                <h3>Scoreboard</h3>
+
+                <div class="userscore">
+
+                    <p class="para user"></p>
+                    <p class="para userscoredisplay"></p>
+
+                    </div>
+
+                <p class="para computer">
+                    Computer : <span class="computerscore"></span>
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
 
     <script src="index.js"></script>
 </body>

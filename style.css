@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+}
+
+.horizontal1{
+    flex: 1;
+    background-color: #1F2833;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.horizontal1 h1{
+    font-family: 'Shizuru', cursive;
+    color :#66FCF1;
+    font-size: 60px;
+}
+
+.horizontal1 h3{
+    color: #66FCF1;
+    font-size: 30px;
+    transform: translateY(30px);
+}
+
+.horizontal2{
+    flex: 2;
+    background-color: #1F2833;
+    display: flex;
+}
+
+.vertical1{
+    flex: 1.5;
+    background-color: #1F2833;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    padding: 20px;
+    margin-block: 20px;
+    background-color: #66FCF1;
+    color: #1F2833;
+    width: 120px;
+    border-radius: 10px;
+    font-family: 'Shizuru', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.button:hover{
+    cursor: pointer;
+    border: 1px solid #66FCF1;
+    background-color: #1F2833;
+    color: #66FCF1;
+}
+
+.vertical2{
+    flex: 1;
+    background-color: #1F2833;
+    color: #66FCF1;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.v2h2{
+    background: #66FCF1;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+    transform: translateX(-50px);
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.v2h2:hover{
+    cursor: pointer;
+    border: 1px solid #66FCF1;
+    background-color: #1F2833;
+}
+
+.v2h2:hover > a{
+    color: #66FCF1;
+}
+
+
+.v2h2 a{
+    text-decoration: none;
+    color: #1F2833;
+}
+
+.vertical3{
+    flex: 1.5;
+    background-color: #1F2833;
+    color: #66FCF1;
+    font-family: 'Shizuru', cursive;
+    font-weight: bolder;
+    display: flex;
+    flex-flow: column;
+}
+
+.vertical3 h3{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    border-bottom: 1.5px solid #66FCF1;
+    width: 400px;
+}
+
+.para{
+    margin-block: 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.userscore{
+    display: flex;
+}
+
+.userscoredisplay{
+    margin-left: 10px;
+}
